@@ -1,6 +1,6 @@
 FROM cypress/base:10
 
-RUN npm install cypress
+RUN npm install -g cypress
 
 ENV TZ "America/New_York"
 
