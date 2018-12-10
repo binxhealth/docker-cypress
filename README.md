@@ -1,4 +1,4 @@
 # docker-cypress
-> A Docker images that includes the [Cypress][cypressUrl] binary
+> A Docker image that includes the [Cypress][cypressUrl] binary
 
 [cypressUrl]: https://www.cypress.io/
