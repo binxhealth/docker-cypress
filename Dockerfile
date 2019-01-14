@@ -1,4 +1,4 @@
-FROM node:11
+FROM node:11.6
 
 # Install packages needed by Cypress.
 RUN apt-get update && \
