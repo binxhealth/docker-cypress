@@ -1,5 +1,6 @@
 FROM node:11
 
+# Install packages needed by Cypress.
 RUN apt-get update && \
   apt-get install -y \
     libgtk2.0-0 \
@@ -10,12 +11,12 @@ RUN apt-get update && \
     libasound2 \
     xvfb
 
-# versions of local tools
+# Print versions.
 RUN node -v
-# NPM version should already be pretty new (> 6.4.0)
 RUN npm -v
 RUN yarn -v
 
+# Install Cypress so that the binary is cached.
 RUN mkdir /opt/cypress
 RUN chmod +rx /opt/cypress
 WORKDIR /opt/cypress
