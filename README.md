@@ -4,7 +4,7 @@
 ## Installation
 
 ```console
-docker pull @binxhealth/cypress:3.1.5
+docker pull binxhealth/cypress:3.2.0
 ```
 
 [cypressUrl]: https://www.cypress.io/
